@@ -27,4 +27,17 @@ jobs:
     - name: Run tests
       run: |
         pytest --cov
+        pytest --cov-report xml --cov
+        mkdir coverage-reports
+        mv coverage.xml coverage-reports/coverage.xml
 
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v2
+      with:
+        name: coverage
+        path: coverage-reports/
