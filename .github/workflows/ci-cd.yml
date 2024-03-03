@@ -39,5 +39,5 @@ jobs:
     - name: Upload coverage report
       uses: actions/upload-artifact@v2
       with:
-        name: coverage
+        name: coverage.xml
         path: coverage-reports/
