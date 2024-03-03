@@ -29,7 +29,10 @@ jobs:
         pytest --cov
         pytest --cov-report xml --cov
         mkdir coverage-reports
+        ls -al
         mv coverage.xml coverage-reports/coverage.xml
+        ls -al
+        ls -al coverage-reports
 
   deploy:
     runs-on: ubuntu-latest
