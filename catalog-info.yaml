@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-coverage-example
+  annotations:
+    github.com/project-slug: phobosysgmbh/test-coverage-example
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
