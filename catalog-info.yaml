@@ -4,6 +4,7 @@ metadata:
   name: test-coverage-example
   annotations:
     github.com/project-slug: phobosysgmbh/test-coverage-example
+    backstage.io/code-coverage: enabled
 spec:
   type: other
   lifecycle: unknown
