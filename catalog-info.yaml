@@ -6,6 +6,7 @@ metadata:
     github.com/project-slug: phobosysgmbh/test-coverage-example
     backstage.io/code-coverage: enabled
     backstage.io/source-location: url:https://github.com/phobosysgmbh/test-coverage-example
+    qameta.io/allure-project: test-coverage-example
 spec:
   type: other
   lifecycle: unknown
