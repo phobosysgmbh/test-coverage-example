@@ -7,7 +7,7 @@ metadata:
     backstage.io/code-coverage: enabled
     backstage.io/source-location: url:https://github.com/phobosysgmbh/test-coverage-example
     qameta.io/allure-project: test-coverage-example
-    sonarqube.org/project-key: lora-bridge
+    sonarqube.org/project-key: test-coverage-example-ts
 spec:
   type: other
   lifecycle: unknown
